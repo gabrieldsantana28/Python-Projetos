@@ -13,7 +13,7 @@ if __name__ == "__main__":
         except ValueError:
             print("Ocorreu um erro ao ler o valor, tente novamente.")
         try:
-            r = div(n1,n2)
+            r = div(n1, n2)
         except ZeroDivisionError:
             print(f"Não é possível dividir por zero!")
         except:
