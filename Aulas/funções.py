@@ -38,14 +38,29 @@ def div(k,j):
 #     r = div(a,b)
 #     print(f'{a} dividido por {b} é igual a {r}')
 
-def quadrado(val):
-    quadrados = []
-    for x in val:
-        quadrados.append(x ** 2)
-    return quadrados
+# def quadrado(val):
+#     quadrados = []
+#     for x in val:
+#         quadrados.append(x ** 2)
+#     return quadrados
 
-if __name__ == '__main__':
-    valores = [2,5,7,3,4,8]
-    resultados = quadrado(valores)
-    for g in resultados:
-        print(g)
+# def contar(num=11, caractere='+'):
+#     for i in range(1, num):
+#         print(caractere)
+
+# contar(5,"$")
+# contar(caractere="*")
+
+x, y, z = 5, 6, 3
+
+def soma_mult(a, b, c = 0):
+    if c == 0:
+        return a * b
+    else:
+        return a + b + c
+    
+if __name__ == "__main__":
+    res1 = soma_mult(x,y)
+    res2 = soma_mult(x,y,z)
+    print(res1)
+    print(res2)
