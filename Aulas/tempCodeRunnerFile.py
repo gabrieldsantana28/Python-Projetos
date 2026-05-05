@@ -1,2 +1,1 @@
-
-print(logaritmo)
+planeta_anao
